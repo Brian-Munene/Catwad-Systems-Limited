@@ -1,0 +1,302 @@
+/*!
+ * Start Bootstrap - SB Admin Bootstrap Admin Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+
+/* Global Styles */
+
+body {
+    margin-top: 100px;
+    background-color: black;
+}
+
+@media(min-width:768px) {
+    body {
+        margin-top: 0px;
+    }
+}
+
+h2 {
+    font-size: 34px;
+    color: #979696;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    letter-spacing: -1px;
+    margin: 0 0 15px 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h6 {
+    font-size: 16px;
+    color: #888888;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    margin: 0 0 60px 0;
+}
+
+.header {
+    text-align: center;
+    background-color: #111;
+    padding: 280px 0;
+}
+
+.header h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    letter-spacing: -1px;
+    margin: 0 0 22px 0;
+    color: rgb(245, 236, 236);
+}
+
+.huge {
+    font-size: 50px;
+    line-height: normal;
+}
+
+
+/*--navigation---
+---------------*/
+
+.main-nav-top {
+    padding: 0px;
+    border-bottom: 1px solid #dddddd;
+    box-shadow: 0 4px 5px -3px #ececec;
+    position: relative;
+    background: #fff;
+}
+
+.main-nav {
+    text-align: center;
+    margin: 10px 0 0px;
+    padding: 0;
+    list-style: none;
+}
+
+.main-nav li {
+    margin: 0 1px;
+    display: inline;
+}
+
+.main-nav li a {
+    display: inline-block;
+    padding: 0px 0px;
+    font-size: 15px;
+    line-height: 20px;
+    margin: 17px 32px;
+    color: #222222;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    background: #f7f7f7;
+    margin-bottom: 5px;
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+}
+
+.main-nav li a:hover {
+    background: rgb(54, 175, 169);
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/*-----Interior design--
+---------------*/
+
+.Projects-nav {
+    padding: 0;
+    margin: 0 0 45px 0;
+    list-style: none;
+    text-align: center;
+}
+
+.Projects-nav li {
+    margin: 0 10px;
+    display: inline;
+}
+
+.Projects-nav li a {
+    display: inline-block;
+    padding: 10px 22px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #222222;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    background: #f7f7f7;
+    margin-bottom: 5px;
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+}
+
+.Projects-nav li a:hover {
+    background: rgb(54, 175, 169);
+    color: #fff;
+    text-decoration: none;
+}
+
+.ProjectsContainer {
+    margin: 0 auto;
+    padding-left: 15px;
+}
+
+.Projects-box {
+    text-align: center;
+    margin-bottom: 30px;
+    height: 350px;
+    width: 350px;
+    overflow: hidden;
+    float: left;
+    padding: 0;
+}
+
+.Projects-box img {
+    margin-bottom: 25px;
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+}
+
+.Projects-box img:hover {
+    opacity: 0.6;
+}
+
+.Projects-nav li a.current {
+    background: rgb(54, 175, 169);
+    color: #fff;
+    text-decoration: none;
+}
+
+.ProjectsContainer {
+    margin: 0 auto;
+    padding-left: 15px;
+}
+
+.Projects-box {
+    text-align: center;
+    margin-bottom: 30px;
+    height: 350px;
+    width: 350px;
+    overflow: hidden;
+    float: left;
+    padding: 0;
+}
+
+.Projects-box img {
+    margin-bottom: 25px;
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+}
+
+.Projects-box img:hover {
+    opacity: 0.6;
+}
+
+.Projects-nav li a.current {
+    background: rgb(54, 175, 169);
+    color: #fff;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    max-height: 60%;
+}
+
+
+/* no transition on .isotope container */
+
+.isotope .isotope-item {
+    /* change duration value to whatever you like */
+    -webkit-transition-duration: 0.6s;
+    -moz-transition-duration: 0.6s;
+    transition-duration: 0.6s;
+}
+
+.isotope .isotope-item {
+    -webkit-transition-property: -webkit-transform, opacity;
+    -moz-transition-property: -moz-transform, opacity;
+    transition-property: transform, opacity;
+}
+
+.main-section.padding {
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+
+a {
+    color: black;
+}
+
+
+/* Footer
+---------------------------------*/
+
+.footer {
+    background: black;
+    padding: 35px 0 35px;
+}
+
+.footer-logo {
+    margin: 15px auto 35px;
+    width: 76px;
+}
+
+.copyright {
+    color: #cccccc;
+    font-size: 14px;
+    display: block;
+    text-align: center;
+}
+
+.copyright a {
+    color: #7cc576;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+}
+
+.copyright a:hover {
+    color: #fff;
+}
+
+.res-nav_click {
+    line-height: 38px;
+    font-family: 'FontAwesome';
+    font-size: 38px;
+    text-decoration: none !important;
+    color: #777777;
+    font-style: normal;
+    display: none;
+    width: 42px;
+    height: 27px;
+    margin: 20px auto;
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+}
+
+.res-nav_click:hover,
+.res-nav_click:active,
+.res-nav_click:focus {
+    color: #7cc576 !important;
+}
+
+.portfolioContainer {
+    max-width: 1140px;
+}
+
+.Pagination {
+    padding-left: 550px;
+}

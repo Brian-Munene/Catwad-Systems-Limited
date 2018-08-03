@@ -1,0 +1,3 @@
+User-agent:*
+Disallow:
+Sitemap:http://catwadsystemsltd.co.ke/sitemap.xml
